@@ -1,7 +1,5 @@
 # pps1
-<b>Code Solutions for Programing for Problem Solving !</b>
-
-Module 1 Operators and Evaluation Of Expresssions
+<b>Module 1 Operators and Evaluation Of Expresssions</b>
 1. Write a program that works as a calculator (addition,multiplication,division,subtraction)
 2. Write a program to find the area of triangle.
 3. Write a program to calculate simple interest.
@@ -11,7 +9,7 @@ Module 1 Operators and Evaluation Of Expresssions
 7. Write a program to compute Fahrenheit from centigrade.
 8. Write a program to illustrate the use of unary prefix and postfix increment and decrement operator.
 
-Module 2 Decision Making
+<b>Module 2 Decision Making</b>
 1. Write a C program to find that the accepted number is negative or positive or zero.
 2. Write a program to read marks of a student from keyboard whether the student is pass or fail.
 3. A. Write a program to read three numbers from the keyboard and find out the    maximum out of these three.(Nested if else)
@@ -26,3 +24,15 @@ Module 2 Decision Making
 6. Write a C program to read no 1 to 7 and print relatively day Sunday to Saturday.
 7. Write a C program to find out the Maximum and Minimum number from given 10 numbers.
 8. Write a C program to input an integer number and check if the last digit of the number is even or odd.
+
+<b>Module 3 Looping</b>
+1. Write a C program to find the factorial of a given number.
+2. Write a program to reverse a number.
+3. Write a program to generate first n number of Fibonacci Series.
+4. Write a program to find out the last sum of the first and last digit of a given number.
+5. Write a C Program to find the sum and average of different numbers which are accepted by user as many as user wants.
+6. Write a program to check whether the given number is prime or not.
+7. Write a program to evaluate the series 1^2 + 2^2 + 3^2 + ... + n^2
+8. Write a C program to find 1 + 1/2 + 1/3 + 1/4 + ... + 1/n
+9. Write a program print patterns.
+10. Write a program print patterns.
