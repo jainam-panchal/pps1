@@ -34,5 +34,5 @@
 6. Write a program to check whether the given number is prime or not.
 7. Write a program to evaluate the series 1^2 + 2^2 + 3^2 + ... + n^2
 8. Write a C program to find 1 + 1/2 + 1/3 + 1/4 + ... + 1/n
-9. Write a program print patterns.
-10. Write a program print patterns.
+9. Write a program to print patterns.
+10. Write a program to print patterns.
