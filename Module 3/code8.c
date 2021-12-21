@@ -4,7 +4,7 @@
 int main()
 {
     int n;
-    long double i, sum = 0.07;
+    long double i, sum = 0.00;
 
     printf("Program to evaluate sum of 1/1 + 1/2 + 1/3 + ..+ 1/n\n");
     scanf("%d",&n);
