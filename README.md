@@ -37,7 +37,7 @@
 9. Write a program to print patterns.
 10. Write a program to print patterns.
 
-<b>Module 4 Arrays and Strings
+<b>Module 4 Arrays and Strings</b>
 1.Write a C program to read and store the roll no and marks of 20 students using an array.
 2.rite a program to find out which number is even or odd from list of 10 numbers using array
 3. Write a program to find the maximum element from a one-Dimensional array.
