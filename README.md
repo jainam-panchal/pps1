@@ -55,3 +55,9 @@ specified location from Array.
 10. Write a program to delete a character in a given string.
 11. Write a program to reverse string.
 12. Write a program to convert string into upper case.
+
+<b>Module 5 Functions</b>
+1. Write a program that defines a function to add first n numbers.
+2. Write a function in the program to return 1 if number is prime otherwise return 0
+3. Write a function Exchange to interchange the values of two variables, say x and y illustrates the use of this function in a calling function.
+4. Write a C program to check whether a number is prime, Armstrong or perfect number using functions.
