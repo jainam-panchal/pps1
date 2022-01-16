@@ -18,12 +18,13 @@ int primecheck(int num)
 
 int armstrongcheck(int num)
 {
-    int i, sum = 0, rem, temp;
+    int i, sum = 0, rem, temp, digit;
     temp = num;
+    digit = (int)log10(num) + 1;
     while (num > 0)
     {
         rem = num % 10;
-        sum = sum + (rem * rem * rem);
+        sum = sum + round(pow(rem, digit));
         num = num / 10;
     }
     if (temp == sum)
@@ -36,7 +37,7 @@ int armstrongcheck(int num)
 
 int perfectcheck(int num)
 {
-    int i, sum=0, temp, rem;
+    int i, sum = 0, temp, rem;
     temp = num;
     for (i = 1; i < num; i++)
     {
