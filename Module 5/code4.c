@@ -1,107 +1,95 @@
 #include <stdio.h>
 #include <math.h>
 
+int primecheck(int num)
+{
+    int i, rem, flag = 0;
+    for (i = 2; i < num / 2; i++)
+    {
+        rem = num % i;
+        if (rem == 0)
+        {
+            flag = 1;
+            break;
+        }
+    }
+    return (flag);
+}
 
-int isPrime(int num);
-int isArmstrong(int num);
-int isPerfect(int num);
+int armstrongcheck(int num)
+{
+    int i, sum = 0, rem, temp;
+    temp = num;
+    while (num > 0)
+    {
+        rem = num % 10;
+        sum = sum + (rem * rem * rem);
+        num = num / 10;
+    }
+    if (temp == sum)
+    {
+        return 1;
+    }
+    else
+        return 0;
+}
 
+int perfectcheck(int num)
+{
+    int i, sum=0, temp, rem;
+    temp = num;
+    for (i = 1; i < num; i++)
+    {
+        rem = num % i;
+        if (rem == 0)
+        {
+            sum += i;
+        }
+    }
+
+    if (sum == temp)
+        return 1;
+    else
+        return 0;
+}
 
 int main()
 {
-    int num;
-    
-    printf("Enter any number: ");
-    scanf("%d", &num);
-    
-    // Call isPrime() functions
-    if(isPrime(num))
-    {
-        printf("%d is Prime number.\n", num);
-    }
-    else
-    {
-        printf("%d is not Prime number.\n", num);
-    }
-    
-    // Call isArmstrong() function
-    if(isArmstrong(num))
-    {
-        printf("%d is Armstrong number.\n", num);
-    }
-    else
-    {
-        printf("%d is not Armstrong number.\n", num);
-    }
-    
+    int x, isprime, isarmstrong, isperfect;
+    scanf("%d", &x);
 
-    if(isPerfect(num))
+    //prime or not
+    isprime = primecheck(x);
+    if (isprime == 0)
     {
-        printf("%d is Perfect number.\n", num);
+        printf("%d is a prime number.\n", x);
     }
     else
     {
-        printf("%d is not Perfect number.\n", num);
+        printf("%d is not a prime number.\n", x);
     }
-    
+
+    //armstrong or not
+    isarmstrong = armstrongcheck(x);
+    if (isarmstrong == 1)
+    {
+        printf("%d is a Armstrong number.\n", x);
+    }
+    else
+    {
+        printf("%d is not a Armstrong number.\n", x);
+    }
+
+    //perfect num or not
+    isperfect = perfectcheck(x);
+    if (isperfect == 1)
+    {
+        printf("%d is a Perfect number.\n", x);
+    }
+    else
+    {
+        printf("%d is not a Perfect number.\n", x);
+    }
+
     return 0;
-}
-
-
-int isPrime(int num) 
-{
-    int i;
-    
-    for(i=2; i<=num/2; i++)  
-    {  
-       
-        if(num%i == 0)  
-        {
-            return 0;
-        }  
-    } 
-    
-    return 1; 
-}
-
-
-
-int isArmstrong(int num) 
-{
-    int lastDigit, sum, originalNum, digits;
-    sum = 0;
-    
-    originalNum = num;
-
-    digits = (int) log10(num) + 1;
-
-    while(num > 0)
-    {
-
-        lastDigit = num % 10;
-
-        sum = sum + round(pow(lastDigit, digits));
-
-        num = num / 10;
-    }
-    
-    return (originalNum == sum);
-}
-
-
-int isPerfect(int num) 
-{
-    int i, sum, n;
-    sum = 0;
-    n = num;
-    
-    for(i=1; i<n; i++)  
-    {  
-        if(n%i == 0)  
-        {  
-            sum += i;  
-        }  
-    }
-    
-    return (num == sum);
 }
