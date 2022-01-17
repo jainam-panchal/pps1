@@ -1,4 +1,5 @@
-# pps1
+<h2>Complete Code Solution for Programming For Problem Solving I</h2>
+
 <b>Module 1 Operators and Evaluation Of Expresssions</b>
 1. Write a program that works as a calculator (addition,multiplication,division,subtraction)
 2. Write a program to find the area of triangle.
@@ -66,3 +67,36 @@ specified location from Array.
 7. Write a program to generate Fibonacci series using recursive function.
 8. Write a program to find sum of digits of the number using Recursive Function.
 9. Write a function that will scan a character string passed as an argument and convert all lowercase character into their uppercase equivalents.
+
+<b>Module 6 Pointers</b>
+1. Write a program to print the address of a variable using a pointer.
+2. Write a C program to swap the two values using pointers.
+3. Write a C program to print the address of a character and the character of string using a pointer.
+4. Write a program to add two numbers using pointers.
+5. Write a program to input and print array elements using pointer.
+6. Write a program to copy one array to another using pointer.
+7. Write a program to swap two arrays using pointers.
+8. Write a program to access elements using a pointer.
+9. Write a program for sorting using a pointer.
+
+<b>Module 7 Structures</b>
+1. Write a program to read structure elements from the keyboard.
+2. Design a structure student_record to contain name, branch and total marks obtained. Develop a program to read data for 10 students in a class and print them.
+3. Write a program to add two distances in feet and inches using Structure.
+4. Write a program to read and print an Employee‟s Details using Structure.
+5. Write a program to declare, initialize an UNION.
+
+<b>Module 8 File Handling in C</b>
+1. Write a program to write a string in file.
+2. A file named data contains a series of integer numbers. Write a c program to read all numbers from a file and then write all odd numbers into a file named “odd” and write all even numbers into a file named “even”. Display all the contents of these file on screen.
+3. C Program to count number of lines in a file.
+4. C Program to print contents of file.
+5. C Program to copy contents of one file to another file.
+6. C Program to merge contents of two files into a third file.
+
+<b>Module 9 Graphics Functions</b>
+1. Write a Program to draw a point, arc, line, and circle.
+2. Write a Program to draw a rectangles and polygons.
+3. Write a Program to fill polygons.
+
+<b>Module 10 OEP</b>
