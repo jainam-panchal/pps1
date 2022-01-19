@@ -1,20 +1,18 @@
 #include<stdio.h>
-int main(){
+int main ()
+{
 
-    int i,j,space;
-    int rows=5;
 
-    for(i=1;i<=rows;i++)
+  for (int i = 1; i <= 5; i++)
     {
-        for(space=1;space<=rows-i;space++){
-            printf(" ");
-        }
-        for(j=1;j<=(2*i-1);j++)
-        {
-            printf("*");
-        }
+      for (int j = 1; j <= 5 - i; j++)
+	printf (" ");
 
-        printf("\n");
+      for (int k = 1; k <= i; k++)
+	printf ("* ");
+
+      printf ("\n");
     }
-    return 0;
+
+  return 0;
 }
