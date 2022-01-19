@@ -14,7 +14,7 @@ int main(){
 
     while(t!=0){
         scanf("%d",&n);
-        sum=sum+n;
+        sum=(float)sum+n;
         --t;
     }
     avg=sum/total_number;
