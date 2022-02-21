@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&num);
 
     for(i=1;i<=num;i++){
-        term = i^2;
+        term = i*i;
         sum=sum+term;
     }
 
