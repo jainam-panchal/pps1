@@ -1,13 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 
-union car
-{
-  char name[20];
-  int price;
+union abc {
+  int a;
+  char b;
 };
 
-int main()
-{
-  union car car1, car2;
+int main() {
+  union abc
+  var;
+  var.a = 68;
+  printf("a %d\n",var.a);
+  printf("b %c",var.b);
   return 0;
 }
