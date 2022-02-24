@@ -1,6 +1,6 @@
-<h2>Complete Code Solution for Programming For Problem Solving I</h2>
+<h2>Complete Code Solution for Programming For Problem Solving I </h2>
 
-<b>Module 1 Operators and Evaluation Of Expresssions</b>
+<b> <a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%201"> Module 1 Operators and Evaluation Of Expresssions </a> </b>
 1. Write a program that works as a calculator (addition,multiplication,division,subtraction)
 2. Write a program to find the area of triangle.
 3. Write a program to calculate simple interest.
@@ -10,7 +10,7 @@
 7. Write a program to compute Fahrenheit from centigrade.
 8. Write a program to illustrate the use of unary prefix and postfix increment and decrement operator.
 
-<b>Module 2 Decision Making</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%202">Module 2 Decision Making</a></b>
 1. Write a C program to find that the accepted number is negative or positive or zero.
 2. Write a program to read marks of a student from keyboard whether the student is pass or fail.
 3. A. Write a program to read three numbers from the keyboard and find out the    maximum out of these three.(Nested if else)
@@ -26,7 +26,7 @@
 7. Write a C program to find out the Maximum and Minimum number from given 10 numbers.
 8. Write a C program to input an integer number and check if the last digit of the number is even or odd.
 
-<b>Module 3 Looping</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%203">Module 3 Looping</a></b>
 1. Write a C program to find the factorial of a given number.
 2. Write a program to reverse a number.
 3. Write a program to generate first n number of Fibonacci Series.
@@ -38,7 +38,7 @@
 9. Write a program to print patterns.
 10. Write a program to print patterns.
 
-<b>Module 4 Arrays and Strings</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%204">Module 4 Arrays and Strings</a></b>
 1. Write a C program to read and store the roll no and marks of
 20 students using an array.
 2. Write a program to find out which number is even or odd
@@ -57,7 +57,7 @@ specified location from Array.
 11. Write a program to reverse string.
 12. Write a program to convert string into upper case.
 
-<b>Module 5 Functions</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%205">Module 5 Functions</a></b>
 1. Write a program that defines a function to add first n numbers.
 2. Write a function in the program to return 1 if number is prime otherwise return 0
 3. Write a function Exchange to interchange the values of two variables, say x and y illustrates the use of this function in a calling function.
@@ -68,7 +68,7 @@ specified location from Array.
 8. Write a program to find sum of digits of the number using Recursive Function.
 9. Write a function that will scan a character string passed as an argument and convert all lowercase character into their uppercase equivalents.
 
-<b>Module 6 Pointers</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%206">Module 6 Pointers</a></b>
 1. Write a program to print the address of a variable using a pointer.
 2. Write a C program to swap the two values using pointers.
 3. Write a C program to print the address of a character and the character of string using a pointer.
@@ -79,14 +79,14 @@ specified location from Array.
 8. Write a program to access elements using a pointer.
 9. Write a program for sorting using a pointer.
 
-<b>Module 7 Structures</b>
+<b<a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%207">>Module 7 Structures</a></b>
 1. Write a program to read structure elements from the keyboard.
 2. Design a structure student_record to contain name, branch and total marks obtained. Develop a program to read data for 10 students in a class and print them.
 3. Write a program to add two distances in feet and inches using Structure.
 4. Write a program to read and print an Employee‟s Details using Structure.
 5. Write a program to declare, initialize an UNION.
 
-<b>Module 8 File Handling in C</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%208">Module 8 File Handling in C</a></b>
 1. Write a program to write a string in file.
 2. A file named data contains a series of integer numbers. Write a c program to read all numbers from a file and then write all odd numbers into a file named “odd” and write all even numbers into a file named “even”. Display all the contents of these file on screen.
 3. C Program to count number of lines in a file.
