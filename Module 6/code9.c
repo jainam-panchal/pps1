@@ -12,7 +12,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    void sort(arr);
+    sort(&arr);
 
     printf("After Sorting: ");
     for (i = 0; i < 10; i++)
@@ -31,7 +31,7 @@ void sort(int *ptr)
     {
         for (j = i + 1; j < 10; ++j)
         {
-            if (*(ptr + j) < *(ptr + i))
+            if (*(ptr + j) > *(ptr + i))
             {
                 temp = *(ptr + i);
                 *(ptr + i) = *(ptr + j);
