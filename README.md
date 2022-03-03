@@ -1,4 +1,6 @@
 <h2>Complete Code Solution for Programming For Problem Solving I </h2>
+<h3>KPGU University Subject: PROGRAMMING FOR PROBLEM SOLVING-I (21GS2118)</h3>
+<h4>Note: Click on Module Number to view Code Solution :) </h4>
 
 <b> <a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%201"> Module 1 Operators and Evaluation Of Expresssions </a> </b>
 1. Write a program that works as a calculator (addition,multiplication,division,subtraction)
@@ -99,4 +101,5 @@ specified location from Array.
 2. Write a Program to draw a rectangles and polygons.
 3. Write a Program to fill polygons.
 
-<b>Module 10 OEP</b>
+<b><a href = "https://github.com/jainam-panchal/pps1/tree/main/Module%2010">Module 10 OEP</a></b>
+1. Number Guessing Game ( MINI PROJECT )
