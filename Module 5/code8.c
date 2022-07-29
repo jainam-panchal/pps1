@@ -1,21 +1,21 @@
-//Write a program to find sum of digits of the number using Recursive Function.
 #include <stdio.h>
-int fun(int n, int rem, int sum)
+int add(int num)
 {
-    if(n==0)
-        return sum;
+    if (num != 0)
+    {
+        return (num % 10 + add(num / 10));
+    }
     else
     {
-        rem=n%10;
-        sum+=rem;
-        n/=10;
-        return fun(n, rem, sum);
+        return 0;
     }
 }
+
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    printf("Sum of digits is %d",fun(n,0,0));
+    int x, sum;
+    printf("Enter a number: ");
+    scanf("%d", &x);
+    printf("Sum of entered num: %d\n", add(x));
     return 0;
 }
