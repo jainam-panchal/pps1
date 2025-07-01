@@ -53,7 +53,7 @@ Dimensional array.
 Programming.
 7. Write a Program for deletion of an element from the
 specified location from Array.
-8. Write a program to find a character from a given string.
+8. Write a program to find a character from a given string.heavily interested and learning system design, low-
 9. Write a program to replace a character in a given string.
 10. Write a program to delete a character in a given string.
 11. Write a program to reverse string.
@@ -108,4 +108,4 @@ specified location from Array.
    
    
 <h2></h2>
-<h2>Made with ❤️ by <a href = "https://github.com/jainam-panchal/">Jainam Panchal</a></h2>
+<h5>Made with ❤️ by <a href = "https://github.com/jainam-panchal/">Jainam Panchal</a></h5>
